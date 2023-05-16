@@ -1,0 +1,28 @@
+.Aside {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+}
+.left {
+  width: 30%;
+  height: 100%;
+  // background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  color: #353535;
+}
+.right {
+  width: 70%;
+  height: 100%;
+  // background: var(--purp);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  color: #353535;
+}
