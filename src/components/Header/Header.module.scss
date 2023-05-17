@@ -18,3 +18,8 @@
   z-index: 15;
   cursor: pointer;
 }
+.avatar {
+  position: relative;
+  z-index: 20;
+  touch-action: none;
+}
