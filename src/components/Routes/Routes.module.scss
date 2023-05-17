@@ -1,0 +1,39 @@
+.routesWRapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.route {
+  height: 60vh;
+  background: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10vw;
+}
+
+.route.two {
+  background: #474747;
+}
+.route.three {
+  background: #595959;
+}
+
+.routerNav {
+  display: flex;
+  list-style: none;
+}
+.routerNav a {
+  margin: 0 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #353535;
+  text-decoration: none;
+}
+
+.absolute {
+  position: absolute;
+  // width: 100%;
+
+}

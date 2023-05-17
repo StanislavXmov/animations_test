@@ -5,24 +5,25 @@
   top: 0;
   bottom: 0;
   display: flex;
+  z-index: 10;
 }
 .left {
   width: 30%;
   height: 100%;
-  // background: white;
+  background: #474747;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 132px;
-  color: #353535;
+  color: white;
 }
 .right {
   width: 70%;
   height: 100%;
-  // background: var(--purp);
+  background: #6b6b6b;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 132px;
-  color: #353535;
+  color: white;
 }
