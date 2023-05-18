@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import styles from './App.module.scss';
 import { Aside } from './components/Checkout';
 import { RoutesWrapper } from './components/Routes';
+import { Modal } from './components/Modal';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div className={styles.app}>
       <Header toggle={asideToogle} />
       <Aside isOpen={isAsideOpen} />
+      <Modal />
       <RoutesWrapper />
     </div>
   );

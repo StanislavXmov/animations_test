@@ -1,0 +1,67 @@
+.modal {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.modalCard {
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  
+  h1 {
+    color: black;
+  }
+}
+
+.openButton, .closeButton {
+  display: block;
+  margin: 0 auto;
+  padding: 1%;
+  appearance: none;
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  font-size: 2rem;
+  background: white;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 1rem;
+  z-index: 15;
+  cursor: pointer;
+  
+}
+
+.closeButton {
+  padding: 10px;
+  margin: 0;
+  margin-left: auto;
+}
+
+@keyframes hi {
+  0% {
+    transform: translate3d(-15px, 10px, 0);
+  }
+
+  50% {
+    transform: translate3d(15px, -10px, 0);
+  }
+
+  100% {
+    transform: translate3d(-15px, 10px, 0);
+  }
+}
+
+.avatar {
+  margin: 0 auto;
+  display: block;
+  animation: hi 0.7s infinite ;
+}
