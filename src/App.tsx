@@ -5,6 +5,7 @@ import styles from './App.module.scss';
 import { Aside } from './components/Checkout';
 import { RoutesWrapper } from './components/Routes';
 import { Modal } from './components/Modal';
+import { Waypoints } from './components/Waypoint';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Aside isOpen={isAsideOpen} />
       <Modal />
       <RoutesWrapper />
+      <Waypoints />
     </div>
   );
 }

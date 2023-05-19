@@ -1,0 +1,25 @@
+.waypoints {
+  margin-top: 60vh;
+  padding: 20px;
+  background: white;
+  font-size: 2rem;
+}
+
+.tempBlock {
+  margin: 16px 0;
+  width: 100%;
+  height: 280px;
+  background: rgb(46, 46, 46);
+}
+
+.animBlock {
+  margin: 16px 0;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(192, 192, 192);
+  font-size: 10rem;
+  text-transform: uppercase;
+}
