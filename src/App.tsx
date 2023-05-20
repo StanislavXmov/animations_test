@@ -6,6 +6,7 @@ import { Aside } from './components/Checkout';
 import { RoutesWrapper } from './components/Routes';
 import { Modal } from './components/Modal';
 import { Waypoints } from './components/Waypoint';
+import { Blocks } from './components/Blocks';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Modal />
       <RoutesWrapper />
       <Waypoints />
+      <Blocks />
     </div>
   );
 }
