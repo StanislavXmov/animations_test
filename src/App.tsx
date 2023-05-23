@@ -7,6 +7,7 @@ import { RoutesWrapper } from './components/Routes';
 import { Modal } from './components/Modal';
 import { Waypoints } from './components/Waypoint';
 import { Blocks } from './components/Blocks';
+import { List } from './components/List';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <RoutesWrapper />
       <Waypoints />
       <Blocks />
+      <List />
     </div>
   );
 }

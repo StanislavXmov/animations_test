@@ -1,0 +1,40 @@
+.listWrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+.list {
+  position: relative;
+  margin-bottom: 20vh;
+}
+.item {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 40vw;
+  height: 80px;
+  margin-bottom: 12px;
+  padding: 12px;
+  background: rgb(46, 46, 46);
+
+  font-size: 2rem;
+  color: aliceblue;
+
+  transition: top 0.5s;
+}
+
+.closeButton {
+  padding: 6px 12px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background: none;
+
+  font-size: 2rem;
+  font-weight: bold;
+  color: aliceblue;
+
+  cursor: pointer;
+}

@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(146, 146, 146);;
+  background: rgb(146, 146, 146);
   color: white;
   font-size: 5rem;
   border-radius: 2rem;
@@ -46,4 +46,6 @@
 .fullHeight {
   height: 50vh;
   margin-bottom: 50px;
+  border: 2px dashed rgb(146, 146, 146);
+  border-radius: 2rem;
 }
