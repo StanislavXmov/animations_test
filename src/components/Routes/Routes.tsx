@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import { useTransition, animated } from '@react-spring/web';
 
 import styles from './Routes.module.scss';
+const basename = '/web/animation';
 
 const One = () => {
   return (
@@ -51,7 +52,7 @@ const Main = () => {
 export const RoutesWrapper = () => {
   return (
     <div className={styles.routesWRapper}>
-      <Router>
+      <Router basename={basename}>
         <ul className={styles.routerNav}>
           <li><Link to="/">One</Link></li>
           <li><Link to="/two">Two</Link></li>
